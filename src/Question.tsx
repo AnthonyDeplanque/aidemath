@@ -6,7 +6,6 @@ const Question = () => {
   const [secondNumber, setSecondNumber] = useState<number>();
   const [result, setResult] = useState<number>();
   const [goodAnswer, setGoodAndswer] = useState<boolean>();
-  const [valid, setValid] = useState<boolean>(false);
 
   useEffect(() => {
 
